@@ -1,0 +1,94 @@
+body,
+html {
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+
+/**********************************************************uso general********************************************************************/
+
+nav {
+    background-color: #83977F;
+    height: 5vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.fa-brands {
+    margin-right: 40%;
+    font-size: 2vw;
+    margin-left: 4%;
+}
+
+.fa-solid {
+    margin-right: 1%;
+    font-size: 2vw;
+}
+
+a {
+    margin-right: 3vw;
+    outline: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+}
+
+footer {
+    width: 100%;
+    height: 8vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+}
+
+.contacto {
+    width: 100vw;
+    height: 32vw;
+    display: flex;
+}
+
+
+/**************************************************Inicio de sesion************************************************************************/
+
+header {
+    width: 100%;
+    height: 37vw;
+    position: relative;
+}
+
+header #titulo_iniciosesion {
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 10vw;
+}
+
+#correo {
+    position: absolute;
+    display: block;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    width: 20%;
+    margin-left: 40%;
+    height: 2vw;
+}
+
+#contrasena {
+    height: 2vw;
+    position: absolute;
+    display: block;
+    margin-bottom: 5vw;
+    margin-top: 8vw;
+    width: 20%;
+    margin-left: 40%;
+}
+
+#iniciar_sesion {
+    width: 10%;
+    margin-left: 45%;
+    height: 1vw;
+    margin-top: 15vw;
+}

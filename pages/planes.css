@@ -1,0 +1,205 @@
+body,
+html {
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+
+/**********************************************************uso general********************************************************************/
+
+nav {
+    background-color: #83977F;
+    height: 5vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.fa-brands {
+    margin-right: 40%;
+    font-size: 2vw;
+    margin-left: 4%;
+}
+
+.fa-solid {
+    margin-right: 1%;
+    font-size: 2vw;
+}
+
+a {
+    margin-right: 3vw;
+    outline: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+}
+
+footer {
+    width: 100%;
+    height: 8vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+}
+
+.contacto {
+    width: 100vw;
+    height: 32vw;
+    display: flex;
+}
+
+
+/*********************************************************Tabla de planes*******************************************************************/
+
+#contenedor_planes #planesyprecios {
+    margin-bottom: 5vw;
+    font-size: 2vw;
+}
+
+#contenedor_planes {
+    margin-left: 10%;
+    width: 80%;
+    height: 40vw;
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+table {
+    width: 100%;
+    height: 30vw;
+}
+
+tr th {
+    font-size: 1.5vw;
+}
+
+tr td {
+    font-size: 1.5vw;
+}
+
+.margen_derecha {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.margen_arriba {
+    border-top: 1px solid black;
+}
+
+.nomb_beneficio {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.nombre_plan {
+    border-right: 1px solid black;
+}
+
+.seleccionar_plan {
+    width: 30%;
+    height: 1vw;
+    margin: 0;
+    padding: 0;
+    border: 0.1vw solid black;
+}
+
+
+/**************************************************Informacion de contacto************************************************************/
+
+.info_contacto {
+    width: 50%;
+    padding: 0px;
+    height: 32vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+li {
+    width: 100%;
+    list-style: none;
+    font-size: 1.5vw;
+    margin-top: 2vw;
+}
+
+#titulo_contacto {
+    margin-top: 0vw;
+}
+
+
+/**************************************************Informacion de contacto************************************************************/
+
+.info_contacto {
+    width: 50%;
+    padding: 0px;
+    height: 32vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+li {
+    width: 100%;
+    list-style: none;
+    font-size: 1.5vw;
+    margin-top: 2vw;
+}
+
+#titulo_contacto {
+    margin-top: 0vw;
+}
+
+
+/************************************************Formulario de envio************************************************************************/
+
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    padding: 0px;
+    width: 50%;
+    height: 32vw;
+}
+
+input {
+    margin: 0px;
+    padding: 0px;
+    width: 40%;
+    height: 2.5vw;
+    margin-top: 3vw;
+}
+
+#nombre {
+    margin-right: 2%;
+    margin-left: 8%;
+    margin-top: 5vw;
+}
+
+#email {
+    display: inline-block;
+    margin-right: 2%;
+    margin-left: 8%;
+}
+
+#comentario {
+    margin-left: 20%;
+    width: 60%;
+    height: 7vw;
+    margin-bottom: 3vw;
+}
+
+#enviar {
+    display: block;
+    width: 40%;
+    height: 2.5vw;
+    margin-left: 30%;
+    border: 0.1vw solid black;
+    padding: 0;
+}
